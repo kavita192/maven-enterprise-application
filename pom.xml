@@ -20,7 +20,7 @@
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>
   
-	<distributionManagement>
+	<!-- <distributionManagement>
 	
 	    <repository>
 	      <id>nexus</id>
@@ -34,5 +34,5 @@
 	      <url>http://18.144.65.92:8081/repository/enterprises-snapshot/</url>
 	    </snapshotRepository>
 	    
-	</distributionManagement>
+	</distributionManagement> -->
 </project>
