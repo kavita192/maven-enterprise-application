@@ -23,11 +23,11 @@
   
 	<distributionManagement>
 	
-	    <repository>
+	<!--    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://18.144.65.92:8081/repository/enterprises-release/</url>
-	    </repository>
+	    </repository> -->
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
