@@ -12,6 +12,30 @@
   <version>1.0</version>
   <name>MavenEnterpriseApp-ear JavaEE6 Assembly</name>
   <url>http://maven.apache.org</url>
+  
+  <properties>
+	<!-- versions -->
+	<sonar.host.url>http://54.219.163.205:9000/</sonar.host.url>
+	<sonar.login>squ_964c93f1ade2ae3cbc6cdf1ecd0b5fe55be9169d</sonar.login>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
+  
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://18.144.65.92:8081/repository/enterprises-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://18.144.65.92:8081/repository/enterprises-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
   <build>
     <finalName>MavenEnterpriseApp-ear</finalName>
