@@ -5,11 +5,11 @@
         <artifactId>maven-enterprise-application</artifactId>
         <groupId>com.mt</groupId>
         <version>1.0</version>
-    </parent> -->
+    </parent> 
   <groupId>com.mt</groupId>
   <artifactId>maven-enterprise-application</artifactId>
   <packaging>ear</packaging>
-  <version>0.0.1-SNAPSHOT</version> 
+  <version>0.0.1-SNAPSHOT</version> -->
 	
   <name>maven-enterprise-application</name>
 	
