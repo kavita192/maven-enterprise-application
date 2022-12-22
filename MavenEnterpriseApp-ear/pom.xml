@@ -9,12 +9,25 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-enterprise-application</artifactId>
   <packaging>ear</packaging>
-  <version>1.0.0</version>
+  <version>0.0.1-SNAPSHOT</version>
+	
   <name>maven-enterprise-application</name>
+	
+<description>Maven enterprise Project for Java Project</description>
+	
+	<organization>
+		<name>Mithun Technologies</name>
+		<url>http://mithuntechnologies.com/</url>
+	</organization>
+	
  <!-- <url>http://maven.apache.org</url> -->
   
   <properties>
 	<!-- versions -->
+	  <jdk.version>1.8</jdk.version>
+		<spring.version>5.1.2.RELEASE</spring.version>
+		<junit.version>4.11</junit.version>
+		<log4j.version>1.2.17</log4j.version>
 	<sonar.host.url>http://54.219.163.205:9000/</sonar.host.url>
 	<sonar.login>squ_964c93f1ade2ae3cbc6cdf1ecd0b5fe55be9169d</sonar.login>
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,7 +52,7 @@
 
  <!-- <build>
     <finalName>MavenEnterpriseApp-ear</finalName>
-  </build>
+  </build> 
     <dependencies>
         <dependency>
             <groupId>com.mt</groupId>
